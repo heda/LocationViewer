@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget0"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<ImageView android:src="@drawable/icon" 
+		android:id="@+id/imageView1"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_x="0dip" 
+		android:layout_y="0dip"></ImageView>
+		
+	<Button android:id="@+id/lockscreen_alert_btn" 
+		android:layout_width="140dip" 
+		android:layout_height="70dip"
+		android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="10dip"
+		android:textSize="40sp"
+		android:text="HILFE"></Button>
+		
+	<Button android:id="@+id/lockscreen_unlock_btn"
+		android:layout_width="70dip" 
+		android:layout_height="30dip"
+		android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dip"
+        android:layout_marginRight="10dip"
+		android:text="Unlock" ></Button>
+</RelativeLayout>

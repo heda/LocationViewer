@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingTop="10px" android:paddingLeft="5px">
+	<TableLayout android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_alignParentTop="true"
+		android:id="@+id/tableLayout1">
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:paddingBottom="40px" android:layout_height="wrap_content"
+			android:text="@string/patientenInfo_title"></TextView>
+		<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<EditText android:hint="Vorname" android:id="@+id/patientenInfo_vornameEdit"
+				android:layout_height="wrap_content" android:text="EditText"
+				android:width="200dip" android:layout_width="wrap_content"></EditText>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<EditText android:id="@+id/patientenInfo_nameEdit"
+				android:width="200dip" android:hint="Nachname"
+				android:layout_height="wrap_content" android:text="EditText"
+				android:layout_width="wrap_content"></EditText>
+			<Button android:text="Speichern" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/patientenInfo_ok"></Button>
+		</TableRow>
+	</TableLayout>
+</RelativeLayout>

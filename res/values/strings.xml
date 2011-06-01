@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, LocationViewer!</string>
+	<string name="app_name">LocationViewer</string>
+	<string name="button">Punkt setzen</string>
+	<string name="menu_radius">Bewegungsradius festlegen</string>
+	<string name="menu_nachrichten">Benachrichtigungsoptionen</string>
+	<string name="menu_modus">Status wählen</string>
+	<string name="menu_pin">PIN ändern</string>
+	<string name="radiusPage_title">Hier können Sie ein Radius in Metern festlegen.
+		Bewegt sich die überwachte Peron aus diesem Radius raus, so wird eine
+		Benachrichtigung abgeschickt.</string>
+	<string name="radiusPage_prompt">Radius:</string>
+	<string name="radiusPage_actualRadius">Aktuell eingestellt: </string>
+	<string name="modusPage_title">Hier können Sie den Modus wechseln zwischen
+		Überwachter und Überwacher. Eine PIN-Eingabe ist hierfür notwendig!
+	</string>
+	<string name="pinPage_title">Bitte geben Sie Ihre PIN ein:</string>
+	<string name="misc_ok">OK</string>
+	<string name="newpinPage_title">Bitte geben Sie Ihre alte PIN ein:</string>
+	<string name="newPinPage_title2">Neue PIN:</string>
+	<string name="emailNsms_title">Hier können Sie die Email-Adresse und die
+		Handy-Nummer für die Benachrichtigungen eingeben.</string>
+	<string name="emailnsms_email">Email:</string>
+	<string name="patientenInfo_title">Hier können Informationen zum Patienten
+		abgespeichert werden. Diese werden im Notfall zur Benachrichtigung
+		genutzt.</string>
+	<string name="menu_informations">Patienten Infos</string>
+</resources>

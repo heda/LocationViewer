@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/location"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:enabled="true"
+		android:clickable="true" 
+		android:apiKey="0TzGPW5gGjEBXe3d_9cPA_kGRtd_znpNE40TIZw" />
+
+	<LinearLayout android:id="@+id/zoom" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true">
+	</LinearLayout>
+
+	<ToggleButton android:layout_width="wrap_content"
+		android:layout_marginTop="10dip" android:width="75dip" android:id="@+id/ToggleButton01"
+		android:layout_height="wrap_content" android:text="@+id/ToggleButton01"
+		android:layout_alignParentRight="true"></ToggleButton>
+
+	<Button android:text="@string/button" android:layout_width="wrap_content"
+		android:id="@+id/Button01" android:layout_height="wrap_content"
+		android:width="75dip" android:layout_below="@+id/ToggleButton01"
+		android:layout_alignLeft="@+id/ToggleButton01"
+		android:layout_alignRight="@+id/ToggleButton01"></Button>
+
+	<Button android:text="Sperren" android:id="@+id/lockBtn"
+		android:width="75dip" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_below="@+id/Button01"
+		android:layout_alignLeft="@+id/Button01" android:layout_alignRight="@+id/Button01"></Button>
+
+
+
+</RelativeLayout>

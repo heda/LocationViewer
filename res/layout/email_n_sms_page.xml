@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingTop="10px" android:paddingLeft="5px">
+	<TableLayout android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_alignParentTop="true"
+		android:id="@+id/tableLayout1">
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:text="@string/emailNsms_title" android:paddingBottom="40px" android:layout_height="wrap_content"></TextView>
+		<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<EditText android:inputType="phone" android:hint="Handy-Nummer"
+				android:id="@+id/emailNsms_smsEdit" android:layout_height="wrap_content"
+				android:text="EditText" android:width="200dip" android:layout_width="wrap_content"></EditText>
+		</TableRow>
+		<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<EditText android:id="@+id/emailNsms_emailEdit"
+				android:width="200dip" android:inputType="textEmailAddress"
+				android:hint="Email" android:layout_height="wrap_content"
+				android:text="EditText" android:layout_width="wrap_content"></EditText>
+			<Button android:text="Speichern" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/emailNsms_ok"></Button>
+		</TableRow>
+	</TableLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_radius" android:icon="@drawable/radius_icon"
+		android:title="@string/menu_radius" />
+	<item android:id="@+id/menu_alert" android:icon="@drawable/nachricht_icon"
+		android:title="@string/menu_nachrichten" />
+	<item android:id="@+id/menu_modus" android:icon="@drawable/modus_icon"
+		android:title="@string/menu_modus" />
+	<item android:id="@+id/menu_pin" android:icon="@drawable/pin_icon"
+		android:title="@string/menu_pin" />
+	<item android:id="@+id/informations" android:icon="@drawable/pin_icon"
+		android:title="@string/menu_informations" />
+</menu>

@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingTop="10px" android:paddingLeft="5px">
+	<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:text="@string/modusPage_title"></TextView>
+	<RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:paddingTop="50px" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1">
+		<ToggleButton android:layout_height="wrap_content" android:id="@+id/ModusPage_toggleBtn" android:layout_alignParentLeft="true" android:textOn="Pfleger" android:text="ToggleButton" android:textOff="Überwachter" android:layout_width="100dip"></ToggleButton>
+		<Button android:layout_toRightOf="@+id/ModusPage_toggleBtn" android:layout_height="wrap_content" android:layout_alignBottom="@+id/ModusPage_toggleBtn" android:layout_width="wrap_content" android:id="@+id/modusPage_okbtn" android:layout_alignTop="@+id/ModusPage_toggleBtn" android:text="Speichern und zurück"></Button>
+	</RelativeLayout>
+
+
+
+</RelativeLayout>

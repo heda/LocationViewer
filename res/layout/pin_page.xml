@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:paddingTop="10px" android:paddingLeft="5px">
+	
+	<TextView android:id="@+id/textView1" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:text="@string/pinPage_title"/>
+	
+	<EditText android:id="@+id/pin_editText"
+		android:text="" android:numeric="integer" android:maxLength="4" 
+		android:password="true" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1"
+		android:layout_width="100dip"/>
+		
+	<Button android:id="@+id/PinPage_okbtn"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/misc_ok" 
+		android:layout_above="@+id/pin_editText"
+		android:layout_toRightOf="@+id/pin_editText" 
+		android:layout_alignTop="@+id/pin_editText" 
+		android:layout_alignBottom="@+id/pin_editText" />
+</RelativeLayout>

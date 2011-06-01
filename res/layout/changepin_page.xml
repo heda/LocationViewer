@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:paddingTop="10px" android:paddingLeft="5px">
+	
+	<TextView android:id="@+id/textView1" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:text="@string/newpinPage_title"/>
+	
+	<EditText android:id="@+id/newpin_oldeditText" 
+		android:text="" android:numeric="integer" android:maxLength="4" 
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:password="true"
+		android:layout_below="@+id/textView1" ></EditText>
+			
+	<TextView android:id="@+id/TextView02"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/newPinPage_title2" 
+		android:layout_marginTop="10dip"
+		android:layout_below="@+id/newpin_oldeditText"></TextView>
+
+	<EditText android:id="@+id/newPin_neuEditText" 
+		android:text="" android:numeric="integer" android:maxLength="4" 
+		android:layout_height="wrap_content"
+		android:layout_width="100dip"
+		android:layout_below="@+id/TextView02"></EditText>
+
+	<Button android:id="@+id/changepin_okbtn"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" 
+		android:text="@string/misc_ok" 
+        android:layout_above="@+id/newPin_neuEditText"
+ 		android:layout_toRightOf="@+id/newPin_neuEditText"
+		android:layout_alignTop="@+id/newPin_neuEditText" 
+		android:layout_alignBottom="@+id/newPin_neuEditText"></Button>
+
+</RelativeLayout>

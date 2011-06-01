@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingTop="10px" android:paddingLeft="5px">
+	<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:text="@string/radiusPage_title"></TextView>
+	<TextView android:id="@+id/aktuell" android:text="@string/radiusPage_actualRadius"
+		android:layout_height="wrap_content" android:layout_below="@+id/textView1"
+		android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1"
+		android:layout_width="50dip" android:paddingTop="20px"></TextView>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/aktuell"
+		android:layout_alignLeft="@+id/aktuell" android:layout_alignRight="@+id/aktuell"
+		android:paddingTop="50px">
+		<Spinner android:id="@+id/spinner1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@+id/aktuell"
+			android:layout_alignLeft="@+id/aktuell"></Spinner>
+		<Button android:text="Speichern und zurück" android:layout_toRightOf="@+id/spinner1"
+			android:id="@+id/radiusPage_okbtn" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignTop="@+id/spinner1"
+			android:layout_alignBottom="@+id/spinner1"></Button>
+	</RelativeLayout>
+
+
+
+</RelativeLayout>
